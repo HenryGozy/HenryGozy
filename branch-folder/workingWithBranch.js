@@ -22,10 +22,6 @@ scrollCont.addEventListener('scroll',()=>{
    
        CheckFor()
 })
-function All(){
-    document.getElementById('demo1').textContent = "who the fuck click button1"
-    document.body.style.backgroundColor = 'rgb(225,30,30)'
-}
 function CheckFor(){
     buttons[0].style.display = (scrollCont.scrollLeft === 0)?'none' : 'inline';
 }
