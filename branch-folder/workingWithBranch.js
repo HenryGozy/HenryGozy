@@ -31,3 +31,8 @@ function CheckFor(){
 }
 
 CheckFor()
+
+button.addEventListener('click',()=>{
+    document.body.classList.toggle('logy')
+    console.log('hey')
+})
