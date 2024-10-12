@@ -1,0 +1,24 @@
+.div-cont{
+    background-color: black
+}
+
+#scroll{
+
+    border: solid black;
+}
+
+#scroll-cont{
+    width: 500px;
+    height: 500px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    background-color: aqua;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+#scroll-cont > div{
+    width:500px;
+    height:500px;
+    background-color: bisque;
+}
